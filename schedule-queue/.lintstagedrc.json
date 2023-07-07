@@ -1,3 +1,3 @@
 {
-  "*.{ts,json}": ["npm run format", "npm run lint", "npm run test:cov"]
+  "*.{ts}": ["npm run format", "npm run lint", "npm run test:staged"]
 }
