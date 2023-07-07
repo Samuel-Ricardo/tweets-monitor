@@ -1,6 +1,6 @@
-FROM node:14.15.4-alpine3.12
+FROM node:19.8.1-alpine3.17
 
-RUN npm install -g @nestjs/cli@8.0.0
+RUN npm install -g @nestjs/cli@10.1.7
 
 USER node
 
