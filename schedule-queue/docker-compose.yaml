@@ -3,13 +3,22 @@ version: '3'
 services:
   app:
     build: .
-    entrypoint: sh -c "npm install && npm run start:dev"
+    entrypoint: sh -c "npm run start:docker"
     ports:
       - 3000:3000
     volumes:
       - .:/home/node/app
     depends_on:
       - redis
+
+  test:
+    restart: on-failure
+    build: .
+    entrypoint: sh -c "npm run test:monitor"
+    volumes:
+      - .:/home/node/app
+    depends_on:
+      - app
 
   redis:
     image: redis:6.2.6-alpine3.14
