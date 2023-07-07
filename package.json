@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "lint-staged": "^13.2.3"
+  }
+}
