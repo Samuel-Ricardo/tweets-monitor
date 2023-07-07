@@ -28,6 +28,7 @@
     "@nestjs/sequelize": "^10.0.0",
     "@types/bull": "^4.10.0",
     "@types/cache-manager": "^4.0.2",
+    "@types/sequelize": "^4.28.15",
     "bull": "^4.10.4",
     "cache-manager": "^5.2.3",
     "reflect-metadata": "^0.1.13",
