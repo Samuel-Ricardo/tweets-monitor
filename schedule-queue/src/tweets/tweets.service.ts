@@ -12,7 +12,7 @@ export class TweetsService {
   ) {}
 
   create(createTweetDto: CreateTweetDto) {
-    return 'This action adds a new tweet';
+    return this.tweetModel.create(createTweetDto as any);
   }
 
   findAll() {
