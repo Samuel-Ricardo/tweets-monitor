@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "lint-staged": "^13.2.3"
+    "@nestjs/mapped-types": "*",
+    "lint-staged": "^13.2.3",
+    "mysql2": "^3.5.0",
+    "sequelize-cli": "^6.6.1"
   }
 }
