@@ -28,4 +28,10 @@
 
 <br>
 
+<p id="project"/>
 
+<h2>  | :artificial_satellite: About:  </h2>
+
+<p>
+    This API simulate that receive tweets of a database and monitor this tweets using advanced technologies like queues, cache, scheduler, docker and more. 
+</p>
