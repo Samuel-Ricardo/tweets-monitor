@@ -35,3 +35,38 @@
 <p>
     This API simulate that receive tweets of a database and monitor this tweets using advanced technologies like queues, cache, scheduler, docker and more. 
 </p>
+
+<br>
+
+<h2 id="techs">
+  :building_construction: | Technologies and Concepts Studied:
+</h2>
+
+> <a href='https://nestjs.com/'> <img width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain-wordmark.svg" /> </a>
+
+- NestJS
+- Sqlite
+- Sequelize
+- MySQL
+- Typescript
+- JS
+- Test
+- Jest  
+- Docker
+- eslint
+- prettier
+- husky
+- Bull
+- cache-manager
+- schedule | crono
+- lint-sataged
+
+> Among Others...
+
+<br>
+
+#
+
+<h2 id="app">
+  💻 | Application:
+</h2>
