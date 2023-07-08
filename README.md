@@ -78,4 +78,18 @@
     This application use a scheduler to get tweets of a sqlite database and detail theys using queues from time to time, keeping it on redis.
 </p>
 
+```bash
+
+GET http://localhost:3000/tweets
+
+###
+POST http://localhost:3000/tweets
+Content-Type: application/json
+
+{
+    "text": "Nice Tweet :D"
+}
+
+```
+
 
