@@ -1,7 +1,7 @@
 import { Process, Processor } from '@nestjs/bull';
 import { Job } from 'bull';
 
-@Processor('email')
+@Processor('emails')
 export class SendMailWithTweetsJob {
   @Process()
   handle(job: Job) {
