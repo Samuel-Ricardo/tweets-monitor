@@ -5,13 +5,14 @@ import { Cache } from 'cache-manager';
 import { InjectQueue } from '@nestjs/bull';
 import { Queue } from 'bull';
 import { Interval } from '@nestjs/schedule';
+import { InjectModel } from '@nestjs/sequelize';
 
 @Injectable()
 export class TweetsCountService {
   private limit = 10;
 
   constructor(
-    @Inject(Tweet)
+    @InjectModel(Tweet)
     private tweetModel: typeof Tweet,
 
     @Inject(CACHE_MANAGER)

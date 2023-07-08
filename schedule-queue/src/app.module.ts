@@ -6,6 +6,7 @@ import { BullModule } from '@nestjs/bull';
 import { SequelizeModule } from '@nestjs/sequelize';
 import { join } from 'path';
 import { TweetsModule } from './tweets/tweets.module';
+import { MailingModule } from './mailing/mailing.module';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { TweetsModule } from './tweets/tweets.module';
       synchronize: true,
     }),
     TweetsModule,
+    MailingModule,
   ],
   controllers: [AppController],
   providers: [AppService],
