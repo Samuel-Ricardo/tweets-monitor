@@ -33,7 +33,7 @@
 <h2>  | :artificial_satellite: About:  </h2>
 
 <p>
-    This API simulate that receive tweets of a database and monitor this tweets using advanced technologies like queues, cache, scheduler, docker and more. 
+    This API simulate that receive tweets of a database and monitor this tweets using advanced technologies like queues, redis, scheduler, docker and more. 
 </p>
 
 <br>
@@ -47,6 +47,7 @@
 - NestJS
 - Sqlite
 - Sequelize
+- Redis
 - MySQL
 - Typescript
 - JS
@@ -70,3 +71,11 @@
 <h2 id="app">
   💻 | Application:
 </h2>
+
+<img src="https://miro.medium.com/v2/resize:fit:818/1*aGCx1q4rO5Uny9AauDCqyw.png"/>
+
+<p>
+    This application use a scheduler to get tweets of a sqlite database and detail theys using queues from time to time, keeping it on redis.
+</p>
+
+
