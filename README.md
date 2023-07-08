@@ -78,6 +78,14 @@
     This application use a scheduler to get tweets of a sqlite database and detail theys using queues from time to time, keeping it on redis.
 </p>
 
+
+<br>
+
+<p id="routes"/>
+
+
+> API Example:
+
 ```bash
 
 GET http://localhost:3000/tweets
@@ -91,5 +99,61 @@ Content-Type: application/json
 }
 
 ```
+#
+
+<br>
+
+<h2 id="run-project"> 
+   👨‍💻 | How to use
+</h2>
+
+<br>
+
+### Open your Git Terminal and clone this repository
+
+```git
+  $ git clone "git@github.com:Samuel-Ricardo/tweets-monitor.git"
+```
+
+### Make Pull
+
+```git
+  $ git pull "git@github.com:Samuel-Ricardo/tweets-monitor.git"
+```
+
+<br>
+
+This application use `Docker` so you dont need to install and cofigurate anything other than docker on your machine.
+
+> <a target="_blank" href="https://www.docker.com/"> <img width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" /> </a>
+
+<br>
 
 
+Navigate to project folder ` $ cd ./schedule-queue/ ` and run it using ` docker-compose `
+
+
+```bash
+
+  # After setup docker environment just run this commmand on root project folder:
+
+  $ docker-compose up --build   # For First Time run this command
+
+  $ docker-compose up           # to run project
+
+
+```
+
+```bash
+
+  #Apps Running on:
+
+  $ API: http://localhost:3000
+
+  $ Redis: http://localhost:6379
+
+  See more: ./schedule-queue/docker-compose.yaml
+
+```
+
+<br>
